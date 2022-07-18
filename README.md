@@ -40,7 +40,7 @@ python train.py --input_path [训练集路径]
 
 测试数据集可以从[这里](https://cloud.tsinghua.edu.cn/f/980d8204f38e4dfebbc8/?dl=1)下载。
 
-本方法是基于参考图像的图像生成，因此测试时需要我们使用我们指定的参考图像，这些图像是从训练集挑选出的。
+本方法是基于参考图像的图像生成，因此测试时需要使用我们指定的参考图像，这些图像是从训练集挑选出的。
 这些参考图像可以从[百度网盘](https://pan.baidu.com/share/init?surl=QqUV49nhebYC5EV8Iync9w&pwd=2v0q)下载，解压后放在当前目录的ref_imgs文件夹下即可。
 
 使用我们提供的预训练模型和参考图像进行测试可以参考以下命令：
