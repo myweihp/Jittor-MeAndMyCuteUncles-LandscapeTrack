@@ -22,14 +22,15 @@ pip install -r requirements.txt
 ```
 
 #### 预训练模型
-预训练模型模型下载地址为 [百度网盘](https://pan.baidu.com/s/1_G42trJ_QEkD3zdqoG4wyQ)，提取码：76j4。下载后放在当前目录即可。
+预训练模型可以从[百度网盘](https://pan.baidu.com/s/1fW-kj4wW6K4vAoQ1qXzPZA?pwd=2ouv)下载。
+下载后解压并放在当前目录即可。
 
 
 ## 训练
 
 训练数据集可以从[这里](https://cloud.tsinghua.edu.cn/f/1d734cbb68b545d6bdf2/?dl=1)下载。
 
-模型的训练可以运行以下命令：
+模型的训练可以参考以下命令：
 
 ```
 python train.py --input_path [训练集路径]
@@ -38,9 +39,11 @@ python train.py --input_path [训练集路径]
 ## 测试
 
 测试数据集可以从[这里](https://cloud.tsinghua.edu.cn/f/980d8204f38e4dfebbc8/?dl=1)下载。
+
 本方法是基于参考图像的图像生成，因此测试时需要我们使用我们指定的参考图像，这些图像是从训练集挑选出的。
-这些参考图像可以从[百度网盘](https://pan.baidu.com/share/init?surl=QqUV49nhebYC5EV8Iync9w&pwd=2v0q)下载，另外，预训练模型可以从[百度网盘](https://pan.baidu.com/s/1fW-kj4wW6K4vAoQ1qXzPZA?pwd=2ouv)下载，解压后分别放在当前目录的ref_imgs和ckpt文件夹下即可。
-使用我们提供模型和参考图像进行测试可以运行以下命令：
+这些参考图像可以从[百度网盘](https://pan.baidu.com/share/init?surl=QqUV49nhebYC5EV8Iync9w&pwd=2v0q)下载，解压后放在当前目录的ref_imgs文件夹下即可。
+
+使用我们提供的预训练模型和参考图像进行测试可以参考以下命令：
 ```
 python train.py --input_path [测试集路径] --output_path ./results
 ```             
