@@ -47,7 +47,7 @@ python train.py --input_path [训练集路径]
 ```
 python train.py --input_path [测试集路径] --output_path ./results
 ```             
-生成的参考图像将保存在results文件夹中。
+生成的参考图像将保存在当前目录下的results文件夹中。
 
 ## 致谢
 
