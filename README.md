@@ -7,14 +7,10 @@
 本项目包含了第二届计图挑战赛计图 - 风景图像生成赛道方案的代码实现。主要方法基于CoCosNet。 
 
 <figure>
-<img src='./selects/1.jpg' width=200/>
-<img src='./selects/2.jpg' width=200/>
-<img src='./selects/3.jpg' width=200/>
-<br>
-<div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">生成的样例结果</div>
+<img src='./selects/1.jpg' width=150/>
+<img src='./selects/2.jpg' width=150/>
+<img src='./selects/3.jpg' width=150/>
+<center style="font-size:14px;color:#C0C0C0;text-decoration:underline">图1.生成的样例图像</center> 
 </figure>
 ## 安装 
 
