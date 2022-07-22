@@ -4,8 +4,18 @@
 
 ## 简介
 
-本项目包含了第二届计图挑战赛计图 - 风景图像生成赛道方案的代码实现。主要方法基于CoCosNet。
+本项目包含了第二届计图挑战赛计图 - 风景图像生成赛道方案的代码实现。主要方法基于CoCosNet。 
 
+<figure>
+<img src='./selects/1.jpg' width=200/>
+<img src='./selects/2.jpg' width=200/>
+<img src='./selects/3.jpg' width=200/>
+<br>
+<div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">生成的样例结果</div>
+</figure>
 ## 安装 
 
 本项目可在 1 张 RTX 3090 上训练及测试。
